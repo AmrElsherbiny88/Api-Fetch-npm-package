@@ -1,5 +1,5 @@
 {
-  "name": "smart-fetch",
+  "name": "fetchingsmart",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,5 +8,9 @@
   },
   "keywords": [],
   "author": "Amr Elsherbiny",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.9"
+ 
+  }
 }
