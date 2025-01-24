@@ -1,24 +1,24 @@
-# fetchingsmart
+# fetchingsmarter
 
-`fetchingsmart` is a lightweight JavaScript package that simplifies making HTTP requests and handling responses, including errors. It works with React, Svelte, and pure JavaScript, and provides an easy-to-use API to interact with remote servers and handle both successful and error responses in a structured way.
+`fetchingsmarter` is a lightweight JavaScript package that simplifies making HTTP requests and handling responses, including errors. It works with React, Svelte, and pure JavaScript, and provides an easy-to-use API to interact with remote servers and handle both successful and error responses in a structured way.
 
 ---
 
 ## Installation
 
-You can install the `fetchingsmart` package via npm or yarn:
+You can install the `fetchingsmarter` package via npm or yarn:
 
 ### With npm:
 
 ```bash
-npm install fetchingsmart
+npm install fetchingsmarter
 ```
 
 ## Usage in React
 
 ```javascript
 import React, { useEffect, useState } from 'react';
-import Fetcher from 'fetchingsmart';
+import Fetcher from 'fetchingsmarter';
 
 const Dataa = () => {
   const [posts, setPosts] = useState([]);
@@ -78,14 +78,14 @@ export default Dataa;
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fetchingsmart Example</title>
+    <title>fetchingsmarter Example</title>
 </head>
 <body>
     <div id="loading">Loading...</div>
     <div id="error"></div>
     <ul id="posts"></ul>
 
-    <script src="path/to/fetchingsmart.js"></script>
+    <script src="path/to/fetchingsmarter.js"></script>
     <script>
         const postsContainer = document.getElementById('posts');
         const loadingMessage = document.getElementById('loading');
@@ -118,7 +118,7 @@ export default Dataa;
 
 ## Advanced Options
 
-You can pass additional options to `fetchingsmart`:
+You can pass additional options to `fetchingsmarter`:
 
 - **headers** (Object): Custom headers for the request.
 - **params** (Object): Query parameters for the URL.
@@ -136,12 +136,5 @@ const data = await Fetcher({
 
 ---
 
-### How to Include This Documentation
-
-1. **Create a `README.md` file**: In the root directory of your project, create a file named `README.md`.
-2. **Paste the content**: Copy and paste the above content into the `README.md` file.
-3. **Push it to your repository**: If you're using a Git repository, don't forget to commit and push the `README.md` file along with the rest of your project files.
-
-This will provide easy-to-follow documentation for anyone using your package.
 
 
